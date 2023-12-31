@@ -111,7 +111,7 @@ It's up on PyPI:
 
 ::
 
-    pip install lazy-property
+    pip install lazy_property
 
 Or, to do it the hard way, clone this repo, enter the directory into which you cloned the repo, and do a
 
