@@ -1,4 +1,4 @@
-lazy_property - A package for making properties lazy
+property_lazy - A package for making properties lazy
 ====================================================
 
 `Properties <https://docs.python.org/3.4/library/functions.html#property>`_ are a very useful feature of Python, effectively allowing an attribute to masquerade as a method (with no arguments other than ``self``). However, sometimes we want to store the results of an expensive computation in an attribute. The straightforward way to do it would be something like the following:
@@ -111,7 +111,7 @@ It's up on PyPI:
 
 ::
 
-    pip install lazy_property
+    pip install property_lazy
 
 Or, to do it the hard way, clone this repo, enter the directory into which you cloned the repo, and do a
 
